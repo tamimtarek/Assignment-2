@@ -1,0 +1,27 @@
+@media screen and (max-width: 576px) {
+    .nav-container{
+       flex-direction: column;
+    }
+    .header{
+        max-width: 335px;
+    }
+    .nav-items{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .banner-container .banner-title{
+        font-size: 1.3rem;
+
+    }
+    ..banner-container{
+        border: 1px solil black;
+    }
+    .tour-container{
+        gap: 5px;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .destination-image{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

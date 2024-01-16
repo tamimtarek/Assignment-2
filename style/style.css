@@ -1,0 +1,184 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* shared Section */
+.btn-primary{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    color: #FFF;
+    background-color: #FF5400;
+    font-family: Mulish;
+    font-weight: 700;
+}
+.btn-primary i{
+    margin-right: 5px;
+}
+
+/* Header Section style */
+.header{
+    max-width: 1220px;
+    margin: 0 auto;
+    font-family: Mulish;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.nav-title h3{
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+.red-title{
+    color: #FF5400;
+    font-weight: 700;
+}
+.nav-items{
+    display: flex;
+    color: #424247;
+    font-size: 1.12rem;
+    font-weight: 400;
+}
+.nav-items a{
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+
+}
+
+.banner-container{
+    background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+    margin: 30px;
+    padding: 100px;
+}
+.banner-title{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.banner-description{
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+.input-box input, select{
+    margin: 16px;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+
+/* Main Section Start */
+main{
+    max-width: 1220px;
+    margin: 0 auto;
+    font-family: Mulish;
+}
+/* Tour Section */
+.tour-container{
+    display: flex;
+}
+.tour-title{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.tour-description{
+    width: 90%;
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 26px;
+}
+.tour-description ul ,li{
+    margin-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.tour-description .btn-primary{
+    margin-top: 30px;
+}
+/* Destination Section */
+
+.destination-title{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 70px;
+}
+.destination-description{
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    line-height: 26px;
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.destination-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 28px;
+}
+.img-title{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.img-1, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7{
+    display: inline-block;
+    position: relative;
+}
+.img-1{
+    bottom: 802px;
+    right: 485px;
+}
+.img-2{
+    left: 249px;
+    bottom: 805px;
+}
+.img-3{
+    right: 320px;
+    bottom: 484px;
+}
+.img-4{
+    left: 253px;
+    bottom: 483px;
+}
+.img-5{
+    left: 769px;
+    bottom: 489px;
+}
+.img-6{
+    left: 206px;
+    bottom: 167px;
+}
+.img-7{
+    left: 700px;
+    bottom: 169px;
+}
