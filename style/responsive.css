@@ -17,9 +17,11 @@
         border: 1px solil black;
     }
     .tour-container{
-        gap: 5px;
-        flex-direction: column;
+        flex-basis: 400px;
         padding: 20px;
+    }
+    .destination-description{
+        
     }
     .destination-image{
         grid-template-columns: repeat(1, 1fr);
